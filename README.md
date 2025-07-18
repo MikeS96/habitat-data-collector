@@ -1,6 +1,23 @@
-# Habitat Data Collector
+<div align="center">
+  <img src="documents/images/logo.png" alt="Habitat Data Collector Logo" width="30%"/>
+</div>
 
-**Habitat Data Collector** is a standalone simulation application built on top of [Habitat-Sim](https://github.com/facebookresearch/habitat-sim) and [Habitat-Lab](https://github.com/facebookresearch/habitat-lab). It also allows researchers to customize their own object settings within Habitat-Sim and create dynamic scenes. It supports scene loading, object insertion/removal, ROS2 output (pose, RGBD stream), and data recording. This tool is designed for collecting and testing datasets for robot perception, navigation, and mapping tasks in both static and dynamic scenes.
+<h1 align="center">Habitat Data Collector</h1>
+
+<div align="center">
+
+🚀 A modular tool for dataset collection in Habitat-Sim environments.  
+📦 Part of the <a href="https://eku127.github.io/DualMap/">DualMap</a> project.
+
+</div>
+
+
+## ✨ Features
+
+- ✅ Customize dynamic scenes and object layouts  
+- 📡 Stream ROS2 data (pose, RGB-D)  
+- 💾 Record and evaluate data for perception/navigation tasks
+
 
 
 ## 📚 Table of Contents
@@ -116,6 +133,19 @@ habitat-data-collector/
 - ROS2 Humble must be installed and sourced before using ROS features.
 - Configurations are handled with [OmegaConf](https://omegaconf.readthedocs.io/) and [Hydra](https://hydra.cc/).
 - All paths, topics, and behaviors are configured in `config/habitat_data_collector.yaml`.
+
+## 🔗 Citation
+
+If you find our work helpful, please consider starring this repo 🌟 and cite:
+
+```bibtex
+@article{jiang2025dualmap,
+  title={DualMap: Online Open-Vocabulary Semantic Mapping for Natural Language Navigation in Dynamic Changing Scenes},
+  author={Jiang, Jiajun and Zhu, Yiming and Wu, Zirui and Song, Jie},
+  journal={arXiv preprint arXiv:2506.01950},
+  year={2025}
+}
+``` 
 
 ## 🙏 Acknowledgment
 
