@@ -22,12 +22,13 @@ For general dataset guidance, refer to the [Habitat Dataset Documentation](https
 
 Make sure the dataset is downloaded and organized as follows:
 
+> You only need to download the `val` split for testing in `008xx` scenes.
+
 ```
-<PATH TO HM3D>/
-├── hm3d_annotated_basis.scene_dataset_config.json
-├── hm3d_basis.scene_dataset_config.json
+<PATH_TO_HM3D>/
 ├── train/
 ├── val/
+│   └── hm3d_annotated_basis.scene_dataset_config.json
 └── minival/
 
 <PATH TO HM3D>/val/00829-QaLdnwvtxbs/
