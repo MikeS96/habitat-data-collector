@@ -134,6 +134,12 @@ scene_dataset_config: <PATH TO Replica>/replica.scene_dataset_config.json
 ## YCB Benchmarks – Object and Model Set
 
 - Details: https://www.ycbbenchmarks.com/
+- Download: https://huggingface.co/datasets/ai-habitat/ycb
+
+```bash
+git lfs install
+git clone https://huggingface.co/datasets/ai-habitat/ycb
+```
 
 ### Structure
 

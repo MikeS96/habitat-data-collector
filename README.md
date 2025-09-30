@@ -40,7 +40,7 @@
 ### 1. Clone the repository with submodules
 
 ```bash
-git clone --recurse-submodules https://github.com/Eku127/habitat-data-collector.git
+git clone --recurse-submodules https://github.com/MikeS96/habitat-data-collector.git
 cd habitat-data-collector
 ```
 
